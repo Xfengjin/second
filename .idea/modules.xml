@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/second.iml" filepath="$PROJECT_DIR$/second.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-rabbitmq-consumers-basic/spring-rabbitmq-consumers-basic.iml" filepath="$PROJECT_DIR$/spring-rabbitmq-consumers-basic/spring-rabbitmq-consumers-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-rabbitmq-producers-basic/spring-rabbitmq-producers-basic.iml" filepath="$PROJECT_DIR$/spring-rabbitmq-producers-basic/spring-rabbitmq-producers-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/success/success.iml" filepath="$PROJECT_DIR$/success/success.iml" />
     </modules>

@@ -7,12 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-rabbitmq-consumers-basic" />
         <module name="spring-rabbitmq-producers-basic" />
         <module name="success" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="second" target="1.8" />
+      <module name="spring-rabbitmq-consumers-basic" target="1.8" />
       <module name="spring-rabbitmq-producers-basic" target="1.8" />
       <module name="success" target="1.8" />
     </bytecodeTargetLevel>
@@ -20,6 +22,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="second" options="-parameters" />
+      <module name="spring-rabbitmq-consumers-basic" options="-parameters" />
       <module name="spring-rabbitmq-producers-basic" options="-parameters" />
       <module name="success" options="-parameters" />
     </option>
