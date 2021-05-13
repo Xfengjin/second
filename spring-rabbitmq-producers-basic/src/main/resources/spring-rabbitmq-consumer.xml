@@ -21,10 +21,10 @@
 
     <bean id="springQueueListener" class="com.fengjin.rabbitmq.listener.SpringQueueListener"/>
     <bean id="fanoutListener1" class="com.fengjin.rabbitmq.listener.FanoutListener"/>
-    <!-- <bean id="fanoutListener2" class="com.baiqi.rabbitmq.listener.FanoutListener2"/>
-    <bean id="topicListenerStar" class="com.baiqi.rabbitmq.listener.TopicListenerStar"/>
-    <bean id="topicListenerWell" class="com.baiqi.rabbitmq.listener.TopicListenerWell"/>
-    <bean id="topicListenerWell2" class="com.baiqi.rabbitmq.listener.TopicListenerWell2"/>
+    <!-- <bean id="fanoutListener2" class="com.fengjin.rabbitmq.listener.FanoutListener2"/>
+    <bean id="topicListenerStar" class="com.fengjin.rabbitmq.listener.TopicListenerStar"/>
+    <bean id="topicListenerWell" class="com.fengjin.rabbitmq.listener.TopicListenerWell"/>
+    <bean id="topicListenerWell2" class="com.fengjin.rabbitmq.listener.TopicListenerWell2"/>
 -->
     <rabbit:listener-container connection-factory="connectionFactory" auto-declare="true">
         <rabbit:listener ref="springQueueListener" queue-names="spring_queue"/>
