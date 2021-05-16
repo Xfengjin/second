@@ -5,3 +5,7 @@ spring:
     username: fengj
     password: fengj
     virtual-host: fengJ
+    listener:
+      simple:
+        acknowledge-mode: manual
+        prefetch: 1
