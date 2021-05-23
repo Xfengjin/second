@@ -9,6 +9,7 @@
         <module>producer-springboot</module>
         <module>consumer-springboot</module>
         <module>rabbit-producer-spring-advanced</module>
+        <module>rocktemq-demo</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
