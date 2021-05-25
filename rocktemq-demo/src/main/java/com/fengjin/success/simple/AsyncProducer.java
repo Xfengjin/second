@@ -24,7 +24,7 @@ public class AsyncProducer {
         producer.start();
         producer.setRetryTimesWhenSendAsyncFailed(0);
 
-        int messageCount = 5;
+        int messageCount = 100;
         // 由于是异步发送，这里引入了一个countdownLatch，保证所有的producer发送消息的回调方法都执行完了在停止producer服务
         final CountDownLatch countDownLatch = new CountDownLatch(messageCount);
         for (int i = 0; i < messageCount; i++) {

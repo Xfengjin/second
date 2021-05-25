@@ -1,4 +1,4 @@
-package com.fengjin.success.simple;
+package com.fengjin.success.batch;
 
 import org.apache.rocketmq.common.message.Message;
 

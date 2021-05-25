@@ -1,4 +1,4 @@
-package com.fengjin.success;
+package com.fengjin.success.batch;
 
 import org.apache.rocketmq.client.exception.MQBrokerException;
 import org.apache.rocketmq.client.exception.MQClientException;
