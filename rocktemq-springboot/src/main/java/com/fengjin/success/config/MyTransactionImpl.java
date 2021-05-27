@@ -14,7 +14,8 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * @author: Arno.Feng
  * @date: 2021/5/26
- * @description:
+ * @description: 对于事务消息，会在类上就会指定需要使用的rocketMQTemplate bean，这就意味着，
+ * 不同的事务之间是不能使用相同的template bean.所以可以自定义bean，通过继承RocketMQTemplate实现
  */
 @RocketMQTransactionListener(rocketMQTemplateBeanName = "rocketMQTemplate")
 public class MyTransactionImpl implements RocketMQLocalTransactionListener {
