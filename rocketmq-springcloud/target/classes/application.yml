@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    stream:
+      rocketmq:
+        binder:
+          name-server: 1.117.82.42:9876
+      bindings:
+        output:
+          destination: TestTopic
+        input:
+          destination: TestTopic
+          group: scGroup
