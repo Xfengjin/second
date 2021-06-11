@@ -12,6 +12,7 @@
         <module>rocktemq-demo</module>
         <module>rocktemq-springboot</module>
         <module>rocketmq-springcloud</module>
+        <module>design-pattern</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
