@@ -25,7 +25,11 @@ public class Consumer {
 
         consumer.setConsumeFromWhere(ConsumeFromWhere.CONSUME_FROM_LAST_OFFSET);
 
+<<<<<<< HEAD
         consumer.subscribe("BatchTest", "*");
+=======
+        consumer.subscribe("TopicTest", "*");
+>>>>>>> dev
 
         consumer.registerMessageListener(new MessageListenerConcurrently() {
             @Override
