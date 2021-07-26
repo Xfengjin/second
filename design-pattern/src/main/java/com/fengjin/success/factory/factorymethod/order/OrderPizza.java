@@ -19,7 +19,12 @@ public abstract class OrderPizza {
         Pizza pizza = null;
         String orderType;
         do {
-
+            orderType = getType();
+            pizza = createPizza(orderType);
+            pizza.prepare();
+            pizza.bake();
+            pizza.cut();
+            pizza.box();
         } while (true);
     }
 

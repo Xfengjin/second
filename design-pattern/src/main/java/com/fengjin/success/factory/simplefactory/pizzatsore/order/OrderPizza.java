@@ -1,6 +1,6 @@
 package com.fengjin.success.factory.simplefactory.pizzatsore.order;
 
-import com.fengjin.success.factory.simplefactory.pizzatsore.pizza.CheesePizza;
+import com.fengjin.success.factory.simplefactory.pizza.CheesePizza;
 import com.fengjin.success.factory.simplefactory.pizzatsore.pizza.GreekPizza;
 import com.fengjin.success.factory.simplefactory.pizzatsore.pizza.Pizza;
 import lombok.extern.slf4j.Slf4j;
