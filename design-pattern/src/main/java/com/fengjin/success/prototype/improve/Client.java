@@ -3,7 +3,7 @@ package com.fengjin.success.prototype.improve;
 /**
  * @author fengjin
  * @Data 2021/7/27
- * @Description 致敬大师，致敬未来的你
+ * @Description 致敬大师，致敬未来的你 - 原型模式
  */
 public class Client {
 
